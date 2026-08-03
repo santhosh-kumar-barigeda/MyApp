@@ -1,5 +1,7 @@
-import { View, Text, Button } from 'react-native';
+import { Button, Text, View } from 'react-native';
+
 import { navigationService } from '@/shared/lib/navigation-service';
+
 import { useAuthScreenStyles } from './auth-screen.styles';
 
 export function AuthScreen() {

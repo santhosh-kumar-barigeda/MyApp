@@ -1,8 +1,8 @@
 import {
-  navigate,
-  goBack,
-  reset,
   getCurrentRoute,
+  goBack,
+  navigate,
+  reset,
 } from './navigation-service.utils';
 
 export const navigationService = {

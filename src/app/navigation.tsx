@@ -1,8 +1,9 @@
 import { createStaticNavigation } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import { SplashStack } from './splash-stack';
-import { OnboardingStack } from './onboarding-stack';
+
 import { AuthStack } from './auth-stack';
+import { OnboardingStack } from './onboarding-stack';
+import { SplashStack } from './splash-stack';
 import { UserStack } from './user-stack';
 
 const RootStack = createNativeStackNavigator({

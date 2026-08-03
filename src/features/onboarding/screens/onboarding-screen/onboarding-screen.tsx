@@ -1,5 +1,7 @@
-import { View, Text, Button } from 'react-native';
+import { Button, Text, View } from 'react-native';
+
 import { navigationService } from '@/shared/lib/navigation-service';
+
 import { useOnboardingScreenStyles } from './onboarding-screen.styles';
 
 export function OnboardingScreen() {

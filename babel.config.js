@@ -9,6 +9,7 @@ module.exports = {
           '@': './src',
         },
       },
+      'react-native-worklets/plugin',
     ],
   ],
 };
